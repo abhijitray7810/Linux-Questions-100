@@ -43,3 +43,36 @@ $ ls -li
 123456 -rw-r--r--  2 user user 6 Jun  1 09:00 hlink
 123457 lrwxrwxrwx  1 user user 8 Jun  1 09:00 slink -> file.txt
 ```
+## Q13. What is the difference between absolute and relative paths?
+- Absolute path  
+Starts at the **root of the filesystem** (`/`) and gives the complete, unambiguous route to the object.  
+  -  Example: `/home/alice/docs/report.pdf`
+
+- Relative path  
+Starts at the **current working directory** (`.`) and only gives the route from there.  
+  -  Example: `docs/report.pdf` (if you are already in `/home/alice`)
+
+- Quick contrast
+
+| Point | Absolute | Relative |
+|---|---|---|
+| Begins with | `/` (root) | Any character except `/` (usually `.` or dirname or `..`) |
+| Value depends on CWD | ❌ never | ✅ always |
+| Works from anywhere | ✅ | ❌ (breaks if CWD changes) |
+| Typical use | Scripts, cron jobs, systemd units, documentation | Interactive shell, short commands inside a project |
+| Parent dir shortcut | `/home/alice/../bob` still absolute | `../bob` climbs one dir from CWD |
+| Shell variables that help | `pwd` always returns absolute | `$PWD` vs `..` vs `.` |
+## Q14.How do you find files in Linux?
+```
+find /path -name "filename"  # Find by name
+find /path -type f -mtime -1 # Files modified in last 24 hours
+find /path -size +100M       # Files larger than 100MB
+locate filename              # Quick search using updatedb database
+```
+## Q15. How do you check disk usage?
+```
+df -h                        # Disk space usage
+du -sh /path/directory       # Directory size
+du -ah /path | sort -rh | head -n 20  # Top 20 largest files
+```
+
