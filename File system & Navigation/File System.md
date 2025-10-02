@@ -14,7 +14,7 @@ rm filename                  # Remove files
 mkdir directory_name         # Create directory
 rmdir directory_name         # Remove empty directory
 ```
-## Difference between hard link and soft link?
+## Q12. Difference between hard link and soft link?
 - Hard links point directly to file's inode; if original is deleted, data remains accessible. Soft links (symlinks) point to file path; if original is deleted, link becomes broken. Hard links cannot cross filesystems, symlinks can.
 - Hard link vs. soft (symbolic) link – the one-sentence difference
 - Quick comparison table
