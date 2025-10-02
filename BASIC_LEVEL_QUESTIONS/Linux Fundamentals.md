@@ -5,3 +5,8 @@
 - Differences: Linux is free & open-source, Unix is proprietary; Linux supports more hardware platforms.
 ## Q2. What is Linux and why is it important for DevOps?
 - Linux is an open-source, Unix-like operating system widely used in servers, cloud environments, and containers. DevOps engineers rely on Linux for running web/app servers, automating deployments, managing cloud infrastructure, and handling system monitoring. It's the backbone of most cloud platforms and containerization technologies.
+## Q3. What are the main components of Linux OS?
+- Kernel
+- System libraries
+- System utilities
+- Hardware layer
