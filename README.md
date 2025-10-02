@@ -3,7 +3,7 @@ Now I'll create the comprehensive README.md files for each topic. Let me start w
 
 # Linux Fundamentals (Basics) - README.md
 
-```markdown
+
 # Linux Fundamentals (Basics)
 
 ## Table of Contents
