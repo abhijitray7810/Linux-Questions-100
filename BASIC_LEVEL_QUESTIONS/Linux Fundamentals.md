@@ -34,3 +34,12 @@ hostnamectl                  # Shows system information including OS
 - /opt - Optional software packages
 - /proc - Process and kernel information
 - /dev - Device files
+## Q7. What is the difference between su and sudo?
+- su → switch user (needs root password).
+- sudo → run commands as root (needs user in sudoers).
+## Q8. What is the root user and what are its privileges?
+- The root user (superuser) has unlimited privileges including accessing any file/directory, installing/removing software, modifying system configurations, managing users/groups, starting/stopping services, and binding to privileged ports (<1024).
+## Q9. How do you check system uptime?
+```bash
+uptime
+```
