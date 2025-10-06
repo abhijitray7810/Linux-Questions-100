@@ -24,5 +24,5 @@ unzip archive.zip                    # Extract zip
 - Add to crontab: */15 * * * * /path/to/script.sh
  ## Q43. What is the difference between > and >> redirection?
 - overwrites file content, >> appends to file.
-## Q30. How do you run a command in background?
+## Q44. How do you run a command in background?
 - Add & at end: long_command &, or use nohup command & to persist after logout.
