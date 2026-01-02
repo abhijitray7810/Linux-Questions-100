@@ -8,7 +8,7 @@ apt-get install package
 # RHEL/CentOS
 yum install package
 dnf install package
-
+ 
 # Universal
 snap install package
 flatpak install package
