@@ -1,10 +1,8 @@
-## 1. Linux Fundamentals (Basics) README.md
+## 1. Linux Fundamentals (Basics) 
 Now I'll create the comprehensive README.md files for each topic. Let me start with the first one:
 
 # Linux Fundamentals (Basics)
 
-
-# Linux Fundamentals (Basics)
 
 ## Table of Contents
 - [Introduction](#introduction)
